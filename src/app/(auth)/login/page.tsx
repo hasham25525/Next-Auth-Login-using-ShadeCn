@@ -1,7 +1,10 @@
+import LoginForm from "@/components/form/LoginForm"
 
 const page = () => {
   return (
-    <div>Login</div>
+    <div className="w-full">
+      <LoginForm />
+    </div>
   )
 }
 
