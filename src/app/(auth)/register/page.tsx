@@ -1,8 +1,11 @@
+import RegistForm from '@/components/form/RegistForm'
 import React from 'react'
 
 const page = () => {
   return (
-    <div className='w-full'>register</div>
+    <div className='w-full'>
+      <RegistForm/>
+    </div>
   )
 }
 
